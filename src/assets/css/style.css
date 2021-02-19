@@ -50,7 +50,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   background: #31d2ee;
-  color: #fff;
+  color: rgb(85, 82, 82);
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -79,7 +79,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(158, 156, 156);
 }
 
 #preloader:before {
@@ -424,7 +424,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.63);
 }
 
 .facts .count-box i {
@@ -561,7 +561,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.596);
   border-radius: 50px;
   padding: 2px 15px;
 }
