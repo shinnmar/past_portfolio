@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  background-color: #020513;
 }
 
 a {
@@ -50,7 +50,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   background: #31d2ee;
-  color: rgb(85, 82, 82);
+  color: rgb(6, 12, 32);
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -64,7 +64,7 @@ h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0f58df;
+  background: #31d2ee;
   transition: background 0.2s ease-in-out;
 }
 
@@ -79,7 +79,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: rgb(158, 156, 156);
+  background: #020513b7;
 }
 
 #preloader:before {
@@ -87,7 +87,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #317dee;
+  border: 6px solid #31d2ee;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -141,8 +141,8 @@ h6 {
 @media (max-width: 992px) {
   #header {
     width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
+    background: #070a1aee;
+    border-right: 1px solid #020513ee;
     left: -300px;
   }
 }
@@ -171,13 +171,13 @@ h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #4d5772;
+  color: #31d2ee;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background-color: #020513ee;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -190,7 +190,7 @@ h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #31d2ee;
 }
 
 @media (min-width: 992px) {
@@ -199,27 +199,27 @@ h6 {
   }
   .nav-menu a span {
     display: none;
-    color: #fff;
+    color: #020513ee;
   }
 }
 
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #fff;
+  color: #020513ee;
   background: #31d2ee;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active > a span,
 .nav-menu li:hover > a span {
-  color: #fff;
+  color: #020513ee;
 }
 
 .nav-menu a:hover,
 .nav-menu li:hover > a {
   width: 100%;
-  color: #fff;
+  color: #020513ee;
 }
 
 .nav-menu a:hover span,
@@ -265,7 +265,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/shir2.jpeg") top right no-repeat;
+  background: top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -278,7 +278,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(70, 71, 71, 0.815);
+  background: #020513ee;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -291,11 +291,11 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #2a2638;
+  color: #a0e8fa;
 }
 
 #hero p {
-  color: #c3c5c9;
+  color: #a0e8fa;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -314,13 +314,22 @@ h6 {
   font-size: 24px;
   display: inline-block;
   color: #31d2ee;
+  background: #020513ee;
+  border-radius: 60%;
+  width: 33px;
+  height: 33px; 
   line-height: 1;
   margin-right: 20px;
+  padding: 4px 0;
   transition: 0.3s;
 }
 
 #hero .social-links a:hover {
-  color: #161a1a;
+  color: #020513ee;
+  background: #31d2ee;
+  border-radius: 60%;
+  width: 33px;
+  height: 33px;
 }
 
 @media (max-width: 992px) {
@@ -341,7 +350,9 @@ h6 {
     width: 50%;
   }
 }
-
+#main {
+  background-color: #020513ee;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -362,7 +373,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #16d2f3;
 }
 
 .section-title h2::before {
@@ -395,12 +406,17 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content p{
-  color: #092036ce;
+  color: #c5edf7;
 }
+
+.about .content span{
+  color: #31d2ee;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #c5edf7;
 }
 
 .about .content ul {
@@ -410,6 +426,7 @@ section {
 
 .about .content ul li {
   padding-bottom: 10px;
+  color: #c5edf7;
 }
 
 .about .content ul i {
@@ -426,8 +443,9 @@ section {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(79, 192, 207, 0.219);
+  background: #2c386e5b;
   transition: ease-in-out 0.3s;
+  cursor: pointer;
 }
 
 .interests .icon-box i {
@@ -442,11 +460,16 @@ section {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #092036ce;
+  color: #89dcf5;
 }
 
 .interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(82, 179, 218, 0.5);
+}
+
+.interests .icon-box h3:hover {
+  color: #020513e7;
+  width: 100%;
 }
 /*--------------------------------------------------------------
 # Facts
@@ -487,10 +510,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
@@ -498,7 +517,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #c5edf7
 }
 
 .resume .resume-item {
@@ -520,7 +539,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #020513ee;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -547,7 +566,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #020513ee;
   border: 2px solid #31d2ee;
 }
 
@@ -563,7 +582,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: rgba(255, 255, 255, 0.596);
+  background: rgba(7, 13, 31, 0.63);
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -576,7 +595,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #73a9c4;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -920,13 +939,18 @@ section {
     width: 80%;
   }
 }
-
+/*--------------------------------------------------------------
+# CV
+--------------------------------------------------------------*/
+.cv p {
+  color: #c5edf7;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #020513ee;
 }
 
 .contact .info i {
@@ -935,7 +959,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #0a264ba6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -948,14 +972,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #c5edf7;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #728394;
+  color: #86e0f7;
 }
 
 .contact .info .email,
@@ -1078,6 +1102,19 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.portfolio-info {
+  color: #31d2ee;
+  background-color: rgba(51, 134, 182, 0.63);
+}
+
+.portfolio-information {
+  color: #b3e5f1;
+}
+
+.portfolio-information h2, h3, h4{
+  color: #31d2ee;
+}
+
 .portfolio-details {
   padding: 40px 0;
 }
@@ -1086,6 +1123,7 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #31d2ee;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav,
@@ -1104,7 +1142,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: #72afe7 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1142,11 +1180,15 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #111424ee;
+  color: #a0e8fa;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
+}
+
+#footer:hover {
+  background-color: #020513ee;
 }
 
 #footer h3 {
@@ -1173,20 +1215,23 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #31d2ee;
-  color: #fff;
+  color: #020513ee;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 33px;
+  height: 33px;
   transition: 0.3s;
 }
 
 #footer .social-links a:hover {
-  background: #31d2ee;
-  color: #fff;
+  color: #31d2ee;
+  background: #020513ee;
+  border-radius: 60%;
+  width: 33px;
+  height: 33px;
   text-decoration: none;
 }
 
